@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Maptrace</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_track">Map</string>
+    <string name="title_activity_drug_location">Report Map</string>
+</resources>

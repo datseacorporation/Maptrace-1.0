@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.datseacorporation.maptrace.SuspectActivity"
+    android:background="@color/colorAccent"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19" />
+
+    <EditText
+        android:id="@+id/drugnametf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+
+        android:ems="10"
+        android:hint="Drug Name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <EditText
+        android:id="@+id/latitudetf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Latitude"
+        android:text="0.0000"
+
+        android:inputType="textPersonName"
+        tools:text="0.0000" />
+
+    <EditText
+        android:id="@+id/longitudetf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Longitude"
+
+        android:inputType="textPersonName"
+        android:text="0.0000" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.29" />
+
+    <Button
+        android:id="@+id/save_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:text="Submit Info" />
+
+    <Button
+        android:id="@+id/heatmapbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="Show Heatmap" />
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Show Log" />
+</LinearLayout>

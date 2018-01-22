@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.datseacorporation.maptrace.HomeActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/wellcometv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME HOME"
+        android:textAlignment="center"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/emailidtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.04"
+        android:text="sahilsingh.indoreindore@gmail.com"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='"Control Panel"'
+        android:textAlignment="center"
+        android:textSize="45sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118sp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="159sp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/saveinstabtn"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:layout_below="@+id/textView3"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="15sp"
+                android:layout_row="1"
+                android:background="@mipmap/location" />
+
+            <ImageButton
+                android:id="@+id/showlogsbtn"
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:layout_above="@+id/textView10"
+                android:layout_marginLeft="105sp"
+                android:layout_marginTop="15sp"
+                android:background="@mipmap/insta" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+
+
+            android:text="Instance"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105sp"
+
+            android:text="Logs"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05">
+
+
+        <ImageButton
+            android:id="@+id/showprofilebtn"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+            android:background="@mipmap/profile" />
+
+        <ImageButton
+            android:id="@+id/homelogoutbtn"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:layout_marginLeft="105sp"
+            android:layout_marginTop="15sp"
+            android:background="@mipmap/logout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60sp"
+            android:layout_weight="0.26"
+            android:text="Profile"
+
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105sp"
+            android:text="Logout"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.datseacorporation.maptrace.UserLogin">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textAlignment="center"
+
+        android:textSize="40sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01" />
+
+    <EditText
+        android:id="@+id/emailtf"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:hint="Email"
+
+        android:inputType="textEmailAddress"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/passwordtf"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="0.01"
+
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01" />
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login User" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01" />
+
+    <TextView
+        android:id="@+id/exsignup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.01"
+        android:gravity="center_vertical"
+        android:text="Not Registerd ? Signup"
+
+        android:textAlignment="center" />
+
+
+</LinearLayout>

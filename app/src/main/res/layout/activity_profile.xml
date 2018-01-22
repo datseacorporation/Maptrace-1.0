@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.datseacorporation.maptrace.ProfileActivity"
+    android:background="@color/colorAccent"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/wellcometv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_border"
+        android:text="USER PROFILE"
+        android:textAlignment="center"
+
+        android:textSize="45sp" />
+    <TextView
+        android:id="@+id/usernametv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.11"
+        android:gravity="center_vertical"
+
+        android:text="Welcome, sahilsingh.indore@gmail.com"
+        android:textAlignment="center"
+
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/wellcometv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_border"
+        android:text="Name: Sahil Singh"
+        android:textAlignment="center"
+
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/wellcometv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_border"
+        android:text="Mobile : +917389410182"
+        android:textAlignment="center"
+
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/wellcometv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_border"
+        android:text="Address : Plot 17, Umang Park Shikshak Nagar Scheme No.3, Airport Road Indore 452005"
+        android:textAlignment="center"
+
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile" />
+
+
+</LinearLayout>
