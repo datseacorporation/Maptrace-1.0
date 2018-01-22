@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "498972881392",
+    "firebase_url": "https://maptrace-app.firebaseio.com",
+    "project_id": "maptrace-app",
+    "storage_bucket": "maptrace-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498972881392:android:af7f0f08b102e83f",
+        "android_client_info": {
+          "package_name": "com.datseacorporation.maptrace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498972881392-fibjl23q0l92l0sva6crvtb32b2r7f7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.datseacorporation.maptrace",
+            "certificate_hash": "2450a9069918b3e4843b6008ff18735197e9c0fe"
+          }
+        },
+        {
+          "client_id": "498972881392-rveht3hsi0esc6a9ra2euov7o6rj94s1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmAZ5qYa9YIjrCnbqAV0KCFJbb_MzUpbE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498972881392-rveht3hsi0esc6a9ra2euov7o6rj94s1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
